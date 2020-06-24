@@ -54,7 +54,7 @@ def error(bot, update):
 
 bot = Bot(TOKEN)
 try:
-    bot.set_webhook("https://22f0a03da75e.ngrok.io/" + TOKEN)
+    bot.set_webhook("https://still-taiga-89223.herokuapp.com/" + TOKEN)
 except Exception as e:
     print(e)
     
